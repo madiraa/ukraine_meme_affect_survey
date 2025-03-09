@@ -21,7 +21,7 @@ reddit = praw.Reddit(
 subreddits = [
     'politics', 'foreignpolicy', 'Askpolitics', 'worldnews', 'Ukraine',
     'Global_News_Hub', 'WorldPolitics', 'geopolitics', 'uspolitics',
-    , 'humanitarian', 'USPoliticalPolls', 'war', "Economics"
+    'humanitarian', 'USPoliticalPolls', 'war', "Economics"
     'Charity', 'democrats', 'government'
     'PoliticalOpinions', 'InternationalRelation', 'republican',
 ]
@@ -30,7 +30,7 @@ random.shuffle(subreddits)  # Shuffle order to distribute activity
 # Keywords to look for
 keywords = [
     'ukraine', 'foreign policy', 'aid', 'ukraine war', 'Military aid to Ukraine',
-    "U.S. military aid", "support for Ukraine", "trump and zelensky", "us military aid", 'zelensky'
+    "U.S. military aid", "support for ukraine", "trump and zelensky", "us military aid", 'zelensky'
 ]
 
 # Comment templates
